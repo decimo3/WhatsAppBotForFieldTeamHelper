@@ -14,12 +14,12 @@ python -m venv .venv
 
 3. install development dependencies
 ```ps
-pip -r requirements
+pip install -r requirements.txt
 ```
 
 4. run the development environment
 ```ps
-uvicorn main:app --host 0.0.0.0 --port 8888 --app-dir ./src/ --reload
+uvicorn main:app --host 0.0.0.0 --port 8888 --reload
 ```
 
 5. on an Android phone, install the [Automate](https://llamalab.com/automate/) app by [clicking here](https://play.google.com/store/apps/details?id=com.llamalab.automate)
