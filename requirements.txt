@@ -1,4 +1,4 @@
-pylint==2.17.5
+pylint==4.0.9
 fastapi==0.110.1
 uvicorn==0.29.0
 pydantic==2.6.4
